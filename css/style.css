@@ -1,0 +1,88 @@
+/*  GERAL
+************/
+
+body {
+    background-color: rgb(84, 228, 84);
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.input {
+    border-radius: 5px;
+    padding: 5px;
+}
+/* HEADER *********/
+.main-header {
+    text-align: center;
+    color: white;
+}
+
+/* SECTION E DIV 
+**************/
+.paragrafo-div {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.block-section {
+    background-color: white;
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+}
+
+#btn-calcular {
+    padding: 10px;
+    background-color: rgb(14, 110, 14) ;
+    color: white;
+    border-radius: 10px;
+}
+
+#btn-resetar {
+    padding: 10px;
+    background-color: rgb(138, 6, 6);
+    color: white;
+    border-radius: 10px;
+}
+
+/********* RESULTADO ***********/
+
+#imc {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(84, 228, 84);
+}
+
+#resultado {
+    float: right;
+}
+
+/************ TABELA
+**********/
+table {
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-collapse: separate;
+    border-spacing: 15px 10px;
+    text-align: center;
+}
+#table-title {
+    background-color: rgb(138, 6, 6);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-sub {
+    color: rgb(14, 110, 14);
+    font-weight: bold;
+}
